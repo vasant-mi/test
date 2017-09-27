@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'cms' => 'CMS',
+    'cms_list' => 'Cms List',
+    'per_page' => 'Per Page',
+    'search' => 'Search',
+    'apply' => 'Apply',
+    'reset' => 'Reset',
+    'edit' => 'Edit',
+    'no_cms' => 'No Cms',
+    'about_us' => 'About Us',
+    'edit_cms' => 'Edit Cms',
+    'description' => 'Description',
+    'save' => 'Save',
+    'title'=>'Title',
+    'status'=>'Status',
+    'action'=>'Action',
+    'url'=>'URL',
+    'back'=>'Back',
+    'master_password'=>'Master Password',
+    'invalid_cms_id'=>'Invalid cms id',
+    'cms_update_successfully'=>'Cms update successfully',
+    'cms_save_successfully'=>'Cms save successfully.',
+    'cms_content_msg'=>'Please add cms content',
+    'cms_active_successfully'=>'Cms active successfully',
+    'cms_inactive_successfully'=>'Cms Inactive successfully',
+];

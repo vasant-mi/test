@@ -1,0 +1,524 @@
+/** Created By Karmdip Joshi */
+.navbar {
+    margin-bottom: 0;
+}
+
+#page-wrapper{
+    min-height: 725px;
+}
+
+#wrapper .navbar-bg {
+    /*background-color: rgba(232, 12, 47, 0.92);*/
+    background-color: #005fa6;
+}
+
+#wrapper .navbar-brand {
+    color: white;
+    padding: 2px 5px;
+}
+.navbar-brand .img-responsive{
+    max-width: 45%;
+}
+
+.rangeInput {
+    display: inline;
+    width: 70%;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+}
+.nav > .dropdown > a:focus, .nav > .dropdown > a:hover {
+    background-color: #fa0020;
+}
+
+.nav .dropdown.open > a, .nav .dropdown.open > a:focus, .nav .dropdown.open > a:hover {
+    background-color: #b11931;
+}
+.dropdown a {
+    color: white;
+}
+
+.sidebar ul li a.active {
+    background-color: #f4062c;
+    color: white;
+    font-weight: 500;
+}
+
+.sidebar ul li a.active:hover {
+    font-weight: 500;
+}
+
+.navbar-default a {
+    color: white;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.panel-smasher {
+    border-color: rgba(232, 12, 47, 0.92)
+}
+
+.panel-smasher > .panel-heading {
+    color: #fff;
+    background-color: rgba(232, 12, 47, 0.92);
+    border-color: rgba(232, 12, 47, 0.92);
+    font-weight: 700;
+}
+
+.panel-smasher > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: rgba(232, 12, 47, 0.92)
+}
+
+.panel-smasher > .panel-heading .badge {
+    color: rgba(232, 12, 47, 0.92);
+    background-color: #fff
+}
+
+.panel-smasher > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: rgba(232, 12, 47, 0.92)
+}
+
+/*.navbar-default {
+    background-color: rgba(232, 12, 47, 0.92);
+}
+body {
+    background-color: #4d266c
+}*/
+
+.page-header {
+    color: rgba(232, 12, 47, 0.92);
+    border-bottom: 1px solid rgba(232, 12, 47, 0.92);
+}
+
+.navbar-default .sidebar-nav a:hover {
+    font-weight: 700;
+}
+
+.navbar-default .sidebar-nav a {
+    color: rgba(232, 12, 47, 0.92);
+}
+.titlebar-button{
+    margin-top: -6px;
+    margin-right: -10px;
+}
+.btn-smasher{
+    background-color: white;
+    color: rgba(232, 12, 47, 0.92);
+    border: 1px solid rgba(232, 12, 47, 0.92);
+}
+.btn-smasher:hover{
+    background-color: rgba(232, 12, 47, 0.92);
+    color: #fff;
+    border: 1px solid rgba(232, 12, 47, 0.92);
+}
+
+.text-left-smash{
+    width:4%;
+}
+
+.text-right-smash{
+    width:20%;
+    text-align: center;
+}
+.margine-10{
+    margin: 10px;
+}
+
+/* Login & Forgot Password page css */
+label.error{
+    color: #ff050a;
+    font-weight: normal;
+}
+
+.login-btn-btn .btn-success{
+    background-color: #fff;
+    color: rgba(232, 12, 47, 0.92);
+    border-color: rgba(232, 12, 47, 0.92);
+}
+
+.login-btn-btn .btn-success:hover{
+    background-color: rgba(232, 12, 47, 0.92);
+    border-color: rgba(232, 12, 47, 0.92);
+    color: #fff;
+}
+
+.login-btn-btn .btn-success.active.focus, .login-btn-btn .btn-success.active:focus,
+.login-btn-btn .btn-success.active:hover, .login-btn-btn .btn-success:active.focus,
+.login-btn-btn .btn-success:active:focus, .login-btn-btn .btn-success:active:hover,
+.login-btn-btn .open>.dropdown-toggle.btn-success.focus, .login-btn-btn .open>.dropdown-toggle.btn-success:focus,
+.login-btn-btn .open>.dropdown-toggle.btn-success:hover{
+    background-color: rgba(232, 12, 47, 0.92);
+    border-color: rgba(232, 12, 47, 0.92);
+    color: #fff;
+}
+
+.login-btn-btn .btn-success.focus, .login-btn-btn .btn-success:focus{
+    background-color: rgba(232, 12, 47, 0.92) !important;
+    border-color: rgba(232, 12, 47, 0.92) !important;
+    color: #fff;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo > img{
+    margin: 120px auto 10px;
+    width: 65%;
+}
+
+.logo p{
+    color: #666;
+}
+
+.logo p img{
+    display: inline-block;
+}
+
+.logo p span{
+    color: rgba(232, 12, 47, 0.92);
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #005fa6;
+    border-color: #005fa6;
+}
+
+.panel-green > .panel-heading {
+    border-color: #00beeb !important;
+    color: #fff;
+    background-color: #00beeb;
+}
+.panel-green {
+    border-color: #00beeb !important;
+}
+.panel-yellow > .panel-heading {
+    border-color: #ff9600;
+    color: white;
+    background-color: #ff9600;
+}
+.panel-red > .panel-heading {
+    border-color: #fa0020;
+    color: white;
+    background-color: #fa0020;
+}
+
+.btn-danger:hover{
+    background-color: #c91712;
+}
+.btn-danger{
+    background-color: #fa0020;
+    border-color: #fa0020;
+}
+.btn-success:hover{
+    background-color: #306d30;
+}
+.btn-success{
+    background-color: #00beeb;
+}
+.btn-primary:hover{
+    background-color: #002b50;
+    border-color: #00437d;
+}
+.btn-primary{
+    background-color: #005fa6;
+    border-color: #005fa6;
+}
+
+/* End Login & forgot password page css */
+
+/* Admin responsive design set css start 31-8-17 */
+
+.menu-icon{
+    display: none;
+}
+
+.range-frm{
+    padding: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.range-frm .form-inline .form-group{
+    width: 100%;
+}
+
+.range-frm .form-inline .form-group .form-control{
+    width: 66.666%;
+}
+
+.search-main{
+    padding: 10px 0;
+}
+
+.search-main .form-group{
+    padding: 0 15px;
+}
+
+#mySelect-error {
+    display: block;
+}
+
+@media screen and (max-width: 480px){
+
+    .dashboard-box .col-xs-6{
+        width: 100%;
+    }
+
+    .dashboard-box .col-xs-6 .fa-5x{
+        font-size: 5em !important;
+    }
+
+    .range-frm .form-inline .form-group .form-control {
+        width: calc(100% - 100px);
+        display: inline-block;
+    }
+
+    .range-frm .pull-right{
+        float: none !important;
+    }
+
+    .range-frm .pull-right > .btn{
+        width: 49.3%;
+    }
+
+    .search-main .form-group .form-control{
+        display: inline-block;
+        width: calc(100% - 64px);
+    }
+
+    .search-main .form-group.pull-right{
+        float: none !important;
+    }
+
+    .search-main .form-group.pull-right .btn-primary{
+        width: 100%;
+    }
+
+    .search-main .form-group.sea-right .form-control{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-main .form-group.sea-right .btn{
+        width: 49%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+
+    .range-frm .form-inline .form-group .form-control {
+        width: calc(100% - 100px);
+        display: inline-block;
+    }
+
+    .form-inline.search-main .form-group{
+        width: 50%;
+        float: left;
+    }
+
+    .form-inline.search-main .form-group .form-control{
+        width: calc(100% - 64px);
+        display: inline-block;
+    }
+
+    .form-inline.search-main .form-group.pull-right .btn-primary{
+        float: right;
+    }
+
+    .form-inline.search-main .sea-left{
+        width: 35%;
+    }
+
+    .form-inline.search-main .sea-right{
+        width: 65%;
+    }
+
+    .form-inline.search-main .sea-right .form-control{
+        width: calc(100% - 141px);
+    }
+
+    .form-inline.search-main .sea-right.pull-right .btn{
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+    .nav-custom .navbar-header{
+        float: left;
+        width: calc(100% - 104px);
+    }
+
+    .menu-icon{
+        display: block;
+        position: absolute;
+        /*top: 6px;
+        right: 5px;
+        width: 38px;*/
+        top: 11px;
+        right: 8px;
+        width: 30px;
+    }
+
+    .menu-icon a img{
+        width: 100%;
+    }
+
+    .collapse-hide{
+        display: none;
+    }
+
+    .collapse-show{
+        display: block;
+    }
+
+    .dashboard-box .col-xs-6 .fa-5x{
+        font-size: 4em;
+    }
+
+    .huge {
+        font-size: 29px;
+    }
+
+    .character-btn{
+        float: none !important;
+    }
+
+    .character-btn button{
+        width: 28%;
+    }
+
+    .character-btn a{
+        width: 41%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .dashboard-box .col-xs-6 .fa-5x{
+        font-size: 4.5em;
+    }
+
+    .huge {
+        font-size: 32px;
+    }
+
+    .range-frm .form-inline .form-group .form-control{
+        width: calc(100% - 110px);
+    }
+
+    .col-sm-pl-0{
+        padding-left: 0;
+    }
+
+    .col-sm-pr-0{
+        padding-right: 0;
+    }
+
+    .editRange, .deleteThis, .editSeries{
+        padding: 6px 10px;
+    }
+
+    .range-frm .col-sm-5 .pull-right .btn{
+        padding: 6px 11px;
+    }
+
+    .form-inline.search-main .sea-left{
+        width: 35%;
+    }
+
+    .form-inline.search-main .sea-right{
+        width: 65%;
+    }
+
+    .form-inline.search-main .sea-right .form-control{
+        width: calc(100% - 141px);
+    }
+
+    .form-inline.search-main .sea-right.pull-right .btn{
+        float: none;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+
+    .dashboard-box .col-xs-6 .fa-5x{
+        font-size: 4em;
+    }
+
+}
+
+/* Admin responsive design set css end 31-8-17 */
+
+
+.navbar-default .sidebar-nav a {
+    color: #fa0020;
+}
+.sidebar ul li a.active {
+    background-color: #fa0020;
+}
+.page-header {
+    color: #005fa6;
+    border-bottom: 1px solid;
+    border-color: #005fa6;
+}
+.panel-smasher > .panel-heading {
+    background-color: #005fa6;
+    border-color: #005fa6;
+}
+.panel-smasher {
+    border-color: #005fa6;
+}
+
+.btn-success:active:focus, .btn-success:active:hover{
+    color: #fff;
+    background-color: #02aeed !important;
+    border-color: #02aeed !important;
+}
+.btn-success:hover, .btn-success:active, .btn-success:focus {
+    background-color: #02aeed;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover{
+    background-color: #005fa6;
+    border-color: #005fa6;
+}
+.s-btn-success{
+    background-color: #005fa6;
+    border-color: #005fa6;
+    margin-left: 15px;
+}
+.s-btn-success:active:focus, .s-btn-success:active:hover, .s-btn-success:hover, .s-btn-success:focus{
+    color: #fff;
+    background-color: #204d74 !important;
+    border-color: #122b40 !important;
+}
+.login-btn-btn .btn-success {
+    background-color: #fff;
+    color: rgba(232, 12, 47, 0.92);
+    border-color: #fa0020;
+}
+
+
+.s-btn-block:active:focus, .s-btn-block:active:hover, .s-btn-block:hover, .s-btn-block:focus {
+    color: #fff;
+    background-color: #fa0020 !important;
+    border-color: #fa0020 !important;
+}
+
+body {
+    background-color: #edf7ff !important;
+}
